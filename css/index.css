@@ -67,4 +67,12 @@ padding: 110px 0px 50px 0px;
 .col-md-4{
   margin-top:20px ;
 }
-
+.design{
+  display: none;
+}
+.development{
+  display: none;
+}
+.management{
+  display: none;
+}
