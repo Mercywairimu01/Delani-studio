@@ -77,6 +77,15 @@ padding: 110px 0px 50px 0px;
   margin-top: 20px;
 
 }
+.overlay{
+  position: absolute;
+  background-color: rgba(116, 100, 100, 0.4);
+  display: none;
+  width: 292px;
+  height: 240px;
+  transform: translate( 0%,0%);
+  border: 5px solid rgb(192, 222, 135);
+}
 
 /* contact us section */
 .contact{
