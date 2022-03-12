@@ -1,0 +1,27 @@
+$(document).ready(function(){
+    $(".designers").click(function(){
+        $(".design").toggle();
+        $(".designers").hide();
+    })
+    $(".design").click(function(){
+        $(".designers").toggle();
+        $(".design").hide();
+    })
+    $(".developer").click(function(){
+        $(".development").toggle();
+        $(".developer").hide();
+    })
+    $(".development").click(function(){
+        $(".developer").toggle();
+        $(".development").hide();
+    })
+    $(".manager").click(function(){
+        $(".management").toggle();
+        $(".manager").hide();
+    })
+    $(".management").click(function(){
+        $(".manager").toggle();
+        $(".management").hide();
+    })
+
+});
