@@ -6,7 +6,7 @@
 }
 
 .hero{
-    background-image: url(/images/hero_img.jpg);
+    background-image: url('/images/hero_img.jpg');
     background-size: cover;
     padding-bottom: 7%;
     padding-top: 18%;
@@ -43,7 +43,7 @@
   margin-top: 40px;
 }
 #services{
-  background-image:url(https://raw.githubusercontent.com/Mercywairimu01/Delani-studio/main/images/services_image.jpg) ;
+  background-image:url('https://raw.githubusercontent.com/Mercywairimu01/Delani-studio/main/images/services_image.jpg') ;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -67,18 +67,57 @@ padding: 110px 0px 50px 0px;
 .col-md-4{
   margin-top:20px ;
 }
-.design{
+.design,.development,.management{
   display: none;
 }
-.development{
-  display: none;
-}
-.management{
-  display: none;
-}
+
 /* portfolio section */
 .container .row{
   text-align: center;
   margin-top: 20px;
 
+}
+/* contact us section */
+.contact{
+  background-image: url('https://raw.githubusercontent.com/Mercywairimu01/Delani-studio/main/images/car_image.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  height: 100%;
+  width: 100%;
+  margin-top: 50px;
+}
+.contact h3{
+  text-align: center;
+  padding-top: 40px;
+}
+.contact .detail{
+ margin-top: 10px;
+  
+}
+#name{
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  width: 30%;
+}
+#email{
+  width: 30%;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  margin-left: 30px;
+}
+#message{
+  background-color: transparent;
+  border: 1px solid white;
+  height: 210px;
+  width: 70%;
+  margin-top: 20px;
+}
+.detail::-webkit-input-placeholder { 
+  color: white; 
 }
