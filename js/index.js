@@ -1,4 +1,4 @@
-// business logic
+// user interface
 $(document).ready(function(){
     $(".designers").click(function(){
         $(".design").toggle();
@@ -79,3 +79,35 @@ $(document).ready(function(){
     });
   });
 
+
+  // Business logic
+// contact us section
+
+$(document).ready(function(){
+  $("form#mc-embedded-subscribe-form").submit(function(event){
+    // event.preventDefault();
+    var name = $("input#mce-NAME").val();
+    var email = $("input#mce-EMAIL").val();
+    var message = $("input#MESSAGE").val();
+    if ($("input#mce-NAME").val() && $("input#mce-EMAIL").val()){
+      alert (name + ", we have received your message. Thank you for reaching out to us.");
+    }
+    else {
+      alert("Please enter your name and email!");
+    }
+    
+  });
+
+});
+
+
+// (function($) {window.fnames = new Array();
+//    window.ftypes = new Array();
+//    fnames[2]='NAME';
+//    ftypes[2]='text';
+//    fnames[0]='EMAIL';
+//    ftypes[0]='email';
+//    fnames[1]='MESSAGE';
+//    ftypes[1]='text';}
+// (jQuery));
+// var $mcj = jQuery.noConflict(true);
