@@ -4,6 +4,9 @@
     box-sizing: border-box;
     /* font-family: ; */
 }
+html{
+  scroll-behavior: smooth;
+}
 /* landing section */
 .hero{
     background-image: url('/images/hero_img.jpg');
@@ -88,13 +91,18 @@ padding: 110px 0px 50px 0px;
   height: 100%;
   text-align: center;
   transform: translate( 0%,0%);
-  border: 5px solid rgb(192, 222, 135);
+  border: 5px solid rgb(233, 220, 220);
   color: beige;
   font-size: 30px;
 }
 
 /* contact us section */
-.contact{
+
+.input::-webkit-input-placeholder {
+  color: white ; 
+}
+#mc_embed_signup{
+  /* font:14px Helvetica,Arial,sans-serif;   */
   background-image: url('https://raw.githubusercontent.com/Mercywairimu01/Delani-studio/main/images/car_image.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -106,46 +114,45 @@ padding: 110px 0px 50px 0px;
   width: 100%;
   margin-top: 50px;
 }
-.contact h3{
-  text-align: center;
-  padding-top: 40px;
+#mc_embed_signup_scroll>h2{
+text-align: center;
 }
-.contact .detail{
- margin-top: 10px;
+input[name=NAME]{
+  width: 25%;
+  color: white;
+  border: 1px solid white !important;
+  background-color:transparent;
   
 }
-#name{
+input[name=EMAIL]{
+  width: 25%;
   color: white;
-  border: 1px solid white;
+  border: 1px solid white !important;
   background-color: transparent;
-  width: 30%;
+  
 }
-#email{
-  width: 30%;
-  color: white;
-  border: 1px solid white;
+input[name=MESSAGE]{
   background-color: transparent;
-  margin-left: 30px;
-}
-#message{
-  background-color: transparent;
-  border: 1px solid white;
-  height: 210px;
+  border: 1px solid white !important;
+  height: 200px;
   width: 70%;
   margin-top: 20px;
 }
-#btn{
-  background-color:white;
-  border: 1px solid white;
-  width: 90px;
-  margin: 15px;
+#mce-NAME{
+  margin-right: 420px;
+}
+#mce-EMAIL{
+  margin-top:-30px;
+  margin-right: 190px;
+  float: right;
+}
+
+.contact{
   text-align: center;
 }
-.detail::-webkit-input-placeholder { 
-  color: white; 
-}
-#btn::-webkit-input-placeholder{
-  color: black;
+.clear-foot{
+  margin-top: 10px;
+  text-align: center;
 }
 /* footer section */
 .socials{
