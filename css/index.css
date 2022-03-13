@@ -4,7 +4,7 @@
     box-sizing: border-box;
     /* font-family: ; */
 }
-
+/* landing section */
 .hero{
     background-image: url('/images/hero_img.jpg');
     background-size: cover;
@@ -38,10 +38,12 @@
     transform: translateY(0);
   }
 }
+/* about us section */
 #about{
   text-align: center;
   margin-top: 40px;
 }
+/* serves section */
 #services{
   background-image:url('https://raw.githubusercontent.com/Mercywairimu01/Delani-studio/main/images/services_image.jpg') ;
   background-repeat: no-repeat;
@@ -59,6 +61,7 @@ margin-top: 40px;
 padding: 110px 0px 50px 0px;
  
 }
+/* what-we-do section */
 .what{
   text-align: center;
   margin-top: 40px;
@@ -81,10 +84,13 @@ padding: 110px 0px 50px 0px;
   position: absolute;
   background-color: rgba(116, 100, 100, 0.4);
   display: none;
-  width: 292px;
-  height: 240px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
   transform: translate( 0%,0%);
   border: 5px solid rgb(192, 222, 135);
+  color: beige;
+  font-size: 30px;
 }
 
 /* contact us section */
