@@ -9,7 +9,7 @@ html{
 }
 /* landing section */
 .hero{
-    background-image: url('/images/hero_img.jpg');
+    background-image: url('https://raw.githubusercontent.com/Mercywairimu01/Delani-studio/main/images/hero_img.jpg');
     background-size: cover;
     padding-bottom: 7%;
     padding-top: 18%;
