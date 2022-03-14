@@ -102,7 +102,6 @@ padding: 110px 0px 50px 0px;
   color: white ; 
 }
 #mc_embed_signup{
-  /* font:14px Helvetica,Arial,sans-serif;   */
   background-image: url('https://raw.githubusercontent.com/Mercywairimu01/Delani-studio/main/images/car_image.jpg');
   background-repeat: no-repeat;
   background-position: center;
@@ -142,9 +141,7 @@ input[name=MESSAGE]{
   margin-right: 420px;
 }
 #mce-EMAIL{
-  margin-top:-30px;
-  margin-right: 190px;
-  float: right;
+  transform: translate(50%,-95%);
 }
 
 .contact{

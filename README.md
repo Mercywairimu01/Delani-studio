@@ -16,7 +16,9 @@
 
 ## Description
 This is a website that advertises the Delani studio showing the user just what the studio offers and a portfolio of their recent works.
+<P>Below is the live link to the project</P>
 
+[Delani Studio](https://mercywairimu01.github.io/Delani-studio/)
 
 
 ## Installation Requirements
